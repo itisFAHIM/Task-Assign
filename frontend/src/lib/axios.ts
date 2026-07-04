@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api/',
+  baseURL: `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/`,
 });
 
 api.interceptors.request.use((config) => {
@@ -13,6 +13,7 @@ api.interceptors.request.use((config) => {
   }
   return config;
 });
+
 
 // Setup response interceptor for token refresh (optional for now, but good practice)
 api.interceptors.response.use(
