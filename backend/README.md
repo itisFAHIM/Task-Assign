@@ -16,17 +16,19 @@ I solved it by using django-cors-headers and configured CORS_ALLOW_ALL_ORIGINS a
 
 1. **Clone the repo**:
    ```bash
-   cd backend
+   git clone https://github.com/itisFAHIM/Task-Assign.git
+   cd Task-Assign/backend
    ```
 2. **Create and activate a virtual environment or venv**:
    ```bash
    python -m venv venv
    # Windows
    .\venv\Scripts\activate
+   ```
  
  3. **Install dependencies**:
    ```bash
-   pip install django djangorestframework djangorestframework-simplejwt django-cors-headers pillow
+   pip install -r requirements.txt
    ```
    
 4. **Run Migrations (SQLite Database)**:

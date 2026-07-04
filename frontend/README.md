@@ -1,5 +1,5 @@
 This is the current entire frontend of the Task and Image Annotation application. 
-It's built with Next.js, React, and Tailwind CSS, by delivering a dynamic and high performance user experience.
+It's built with Next.js, React, and Tailwind CSS by delivering a dynamic and high performance user experience.
 
 ## The issues I faced (And solved)
 
